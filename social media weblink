@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Social Networks</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f6c4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    text-align: center;
+  }
+  .title {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .networks {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .networks li {
+    background-color: #ff69b4; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border-radius: 25px; 
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1 class="title">MY SOCIAL NETWORKS</h1>
+  <ul class="networks">
+    <a href="https://www.facebook.com/help/668969529866328" target="_parent" ><li>Facebook</li></a>
+    <a href="https://www.instagram.com/" target="_self"><li>Instagram</li></a>
+    <a href="https://x.com/" target="_blank"><li>Twitter</li></a>
+    <a href="https://www.linkedin.com/help/linkedin/answer/a522735" target="_parent"><li>LinkedIn</li></a>
+    <a href="https://github.com/" target="_top"><li>GitHub</li></a>
+  </ul>
+</div>
+
+</body>
+</html>
